@@ -1,0 +1,139 @@
+@font-face {
+  font-family: Norse;
+  src: url(./src/Norse-Bold\ \(1\).otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.img-background {
+  background-image: url(./src/Od.jpg);
+  width: 30vw;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 15%;
+}
+
+.logo p {
+  color: white;
+  font-family: Norse ;
+  font-size: 65px;
+}
+
+image {
+  position: absolute;
+  bottom: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.intro-text p span {
+  font-style: italic;
+} 
+
+.form-side {
+  width: 70vw;
+  background-color: #f9fafb;
+}
+
+.intro-text {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  font-weight: 500;
+  color: #333;
+  margin-top: 50px;
+  margin-right: 270px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group input {
+  padding: 3px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  color: #333;
+}
+
+#form h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+input[type="password"]:invalid {
+  border-color: red;
+}
+
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  padding: 10px 40px;
+   border-radius: 10px;
+   background-color: #556b2f;
+   color: white;
+   border: 1px solid;
+   margin: 25px 40px;  
+}
+
+button:hover {
+  background-color: #6b8e23;
+}
+
+#form {
+  background-color: #fff;
+  padding: 15px 40px;
+  width: 100%;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.log-in {
+  padding: 0 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #333;
+}
+
+.log-in span {
+  color: #556b2f;
+}
